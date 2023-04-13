@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Compare</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- Boostrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- CDN -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Stylesheet -->
+    <link href="../css/compare.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- nav bar starts here -->
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <h2>CostCheckr</h2>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <h2>CostCheckr</h2>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <ul class="links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../html/About.html">About</a></li>
+                        <li><a href="../html/Country.html">Cost of living</a></li>
+                        <li><a href="../html/comapre.html">Compare</a></li>
+                        <li><a href="../php/Contactus.php">Contact</a></li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- About Us -->
+    <section id="home">
+        <div class="center">
+            <div>
+                <h1 class="text-center">Cost of Living Comparison</h1>
+
+                <div class="container py-5" id="searchCity">
+                    <div class="row justify-content-center">
+                        <div class="col" style="margin-bottom: 2rem;">
+                            <input type="text" class="form-control form-control-lg search-bar"
+                                placeholder="Enter first city" id="city1">
+                        </div>
+                        <div class="col" id="col" style="margin-bottom: 1rem;">
+                            <input type="text" class="form-control form-control-lg search-bar"
+                                placeholder="Enter second city" id="city2">
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary btn-md compare-btn"
+                                id="compareBtn">Compare</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="result"></div>
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-4">
+                    <div class="single-box">
+                        <p>CostCheckr is a cost of living website that helps individuals and businesses to estimate
+                            the cost of living in different cities and countries worldwide.</p>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4">
+                    <div class="single-box">
+                        <h2>Useful links</h2>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../html/About.html">About Us</a></li>
+                            <li><a href="../html/Country.html">Costofliving</a></li>
+                            <li><a href="../html/comapre.html">Compare</a></li>
+                            <li><a href="#">Chart</a></li>
+                            <li><a href="../php/Contactus.php">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4">
+                    <div class="single-box">
+                        <h2>Useful links</h2>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../html/About.html">About Us</a></li>
+                            <li><a href="../html/Country.html">Cost of living</a></li>
+                            <li><a href="../html/comapre.html">Compare</a></li>
+                            <li><a href="../php/Contactus.php">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4">
+                    <div class="single-box">
+                        <h2>Contact Us</h2>
+                        <p>Do you have any questions or feedback for us?
+                            We would love to hear from you!?</p>
+                        <h2>Follow us on</h2>
+                        <p class="socials">
+                            <a href="https://www.facebook.com/mary.odeh.1257"><i class="fa fa-facebook"></i></a>
+                            <a href="https://instagram.com/maireeee_beautyworld?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/mary-odeh-702176189/"><i class="fa fa-linkedin"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+ <!-- Footer End -->
+
+  
+   
+
+    <!-- JavaScript Libraries -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <!-- Javascript -->
+    <script src="../script/compare.js"></script>
+</body>
+</html>
