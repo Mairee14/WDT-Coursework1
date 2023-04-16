@@ -127,14 +127,15 @@
         <!--Contact Section-->
 
 
-        <!-- Footer Start-->
-        <footer>
+       <!-- Footer Start -->
+      <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-4">
                     <div class="single-box">
                         <p>CostCheckr is a cost of living website that helps individuals and businesses to estimate
                             the cost of living in different cities and countries worldwide.</p>
+                       
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-4">
@@ -178,8 +179,10 @@
                 </div>
             </div>
         </div>
-    </footer>
-      <!-- Footer End -->
+       </footer>
+    <!-- Footer End -->
+
+
 
 
 
