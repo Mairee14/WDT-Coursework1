@@ -95,6 +95,12 @@ nav .navbar .links li .sub-menu {
     z-index: 2;
 }
 
+.navbar-brand {
+    font-size: 30px;
+    margin-right: 50px;
+    color: black;
+  }
+
 nav .navbar .links li:hover .htmlCss-sub-menu,
 nav .navbar .links li:hover .js-sub-menu {
     display: block;
