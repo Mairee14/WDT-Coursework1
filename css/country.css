@@ -361,8 +361,12 @@ nav .navbar .links li:hover .js-sub-menu {
     margin-top: 0.25em;
 
 }
-
-.container .flag-img {
+.containerpie{
+    width: 80%;
+  margin: auto;
+    height: 500px;
+}
+.flag-img {
     display: flex;
     width: 45%;
     min-width: 7.5em;
