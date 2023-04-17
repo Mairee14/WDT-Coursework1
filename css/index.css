@@ -143,9 +143,18 @@ nav .navbar .links li:hover .js-sub-menu {
     display: none;
 }
 
+.navbar-brand {
+    font-size: 35px;
+    margin-right: 50px;
+    color: black;
+  }
+  .navbar-brand:hover {
+    color:black;
+  }
+
 /*** Home styling ***/
 #home {
-    background-image: linear-gradient(rgba(138, 114, 124, 0.3), rgba(5, 4, 46, 0.7)), url(../Pictures/pexels-adam-borkowski-12572080.jpg);
+    background-image: linear-gradient(rgba(105, 46, 69, 0.3), rgba(37, 35, 61, 0.7)), url(../Pictures/pexels-taryn-elliott-3889659.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -933,5 +942,5 @@ font-size: 15px;
 border-top: 1px solid rgba(255,255,255,0.4);
 text-align: center;
 }
-.copyright a{color:#01c7e9;transition: all 0.2s ease 0s;}
+.copyright a{color:crimson;transition: all 0.2s ease 0s;}
 .copyright a:hover{color:#ff3666;}
