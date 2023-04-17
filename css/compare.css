@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 /*** Navar styling ***/
 nav {
     position: fixed;
@@ -19,6 +20,7 @@ nav {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     z-index: 99;
 }
+
 nav .navbar {
     height: 100%;
     max-width: 1250px;
@@ -66,6 +68,16 @@ nav .navbar .links li a {
     text-transform: uppercase;
 }
 
+.navbar-brand {
+    font-size: 35px;
+    margin-right: 50px;
+    color: black;
+  }
+  .navbar-brand:hover {
+    color:black;
+  }
+
+
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow {
     transform: rotate(180deg);
@@ -92,15 +104,6 @@ nav .navbar .links li .sub-menu {
     display: none;
     z-index: 2;
 }
-
-.navbar-brand {
-    font-size: 35px;
-    margin-right: 50px;
-    color: black;
-  }
-  .navbar-brand:hover {
-    color:black;
-  }
 
 nav .navbar .links li:hover .htmlCss-sub-menu,
 nav .navbar .links li:hover .js-sub-menu {
@@ -143,6 +146,64 @@ nav .navbar .links li:hover .js-sub-menu {
 .navbar .bx-menu {
     display: none;
 }
+
+.containerpie{
+    width: 80%;
+  margin: auto;
+    height: 500px;
+}
+
+/* table styling */
+ .cityinfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cityinfo .inputone, .cityinfo .inputtwo {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.cityinfo h4 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cityinfo .inputone table,
+.cityinfo .inputtwo table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cityinfo .inputone th,
+.cityinfo .inputtwo th {
+  padding: 10px;
+  background-color: #eee;
+  text-align: left;
+}
+
+.cityinfo .inputone td,
+.cityinfo .inputtwo td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.cityinfo .inputone table th:first-child,
+.cityinfo .inputtwo table th:first-child {
+  width: 60%;
+}
+
+.cityinfo .inputone table th:last-child,
+.cityinfo .inputtwo table th:last-child {
+  width: 40%;
+} 
+
+
 
 
 /* Customize the row */
@@ -237,6 +298,26 @@ th {
 
 
 /* Media Query */
+/* Media About Us */
+@media(max-width:1200px) {
+
+    .about p {
+        font-size: .8rem;
+        margin: 20px auto;
+    }
+}
+
+@media(max-width:992px) {
+    .about {
+        width: 100%;
+    }
+
+    .about {
+        width: 100%;
+    }
+}
+
+  /* Media Navbar */
 @media (max-width:800px) {
     .navbar .bx-menu {
         display: block;
@@ -357,7 +438,6 @@ th {
 }
 
 
-/* Main Footer */
 /* Footer  Starts*/
 h1,
 h2,
