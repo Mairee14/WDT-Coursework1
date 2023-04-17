@@ -138,6 +138,17 @@ nav .navbar .links li:hover .js-sub-menu {
     display: none;
 }
 
+.navbar-brand {
+    font-size: 35px;
+    margin-right: 50px;
+    color: black;
+  }
+  .navbar-brand:hover {
+    color:black;
+  }
+
+
+
 /*** Home styling ***/
 #home {
     background-image: linear-gradient(rgba(245, 30, 120, 0.3), rgba(5, 4, 46, 0.7)), url(../Pictures/pexels-photo-544117.webp);
@@ -199,10 +210,6 @@ nav .navbar .links li:hover .js-sub-menu {
     padding: 50px 0px;
 
 }
-
-
-
-
 
 
 .tittle {
@@ -326,12 +333,6 @@ nav .navbar .links li:hover .js-sub-menu {
     margin: 20px 5px;
 
 }
-
-
-
-
-
-
 
 
 /*Section*/
