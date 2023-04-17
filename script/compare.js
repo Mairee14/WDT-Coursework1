@@ -205,27 +205,27 @@ compareBtn.addEventListener("click", async (e) =>{
 
 			<div class="inputtwo">
 				<div>
-				<h4>Country</h4>
+				<h4>Country:</h4>
 				<span>${inputTwo[1]}</span>
 				</div>
 
 				<div>
-				<h4>Capital</h4>
+				<h4>City:</h4>
 				<span>${inputTwo[2]}</span>
 				</div>
 
 				<div>
-				<h4>Country</h4>
+				<h4>Cost of Living Month total:</h4>
 				<span>${inputTwo[3]}</span>
 				</div>
 
 				<div>
-				<h4>Capital</h4>
+				<h4>Currency:</h4>
 				<span>${inputTwo[4]}</span>
 				</div>
 
 				<div>
-				<h4>Capital</h4>
+				<h4>Note:</h4>
 				<span>${inputTwo[5]}</span>
 				</div>
 
