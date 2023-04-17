@@ -35,10 +35,15 @@ compareBtn.addEventListener("click", async (e) =>{
 	console.log(city1Info);
 	console.log(city2Info);
 
+	
 	const inputOne = {...Object.values(city1Info)};
 	const inputTwo = {...Object.values(city2Info)};
 
+  
+
+
 	resultDiv.innerHTML = `
+	<div class="table-responsive">
 		<div class="cityinfo">
 			<div class="inputone">
 				<div>
@@ -394,3 +399,4 @@ const fetchCityInfo = async(city, country) => {
 	
 		
 }
+

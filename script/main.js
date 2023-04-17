@@ -12,7 +12,6 @@ let map = null;
 
 
 
-
 //Display countries Details
 
 let searchBtn = document.getElementById("search-btn");
@@ -30,7 +29,7 @@ searchBtn.addEventListener("click", () => {
     .then((data) => {
 
       result.innerHTML = `
-        <img src="${data[0].flags.svg}" class="flag-img">
+        <img src="${data[0].flags.svg}" class="flag-img ">
         <h2>${data[0].name.common}</h2>
         <div class="wrapper">
             <div class="data-wrapper">
@@ -65,6 +64,8 @@ searchBtn.addEventListener("click", () => {
         </div>
       `;
 
+
+      
       fetchCityInfo(countryName, data[0].capital[0]);
        // add the call to the createMap function here
        const [lat, lng] = [data[0].latlng[0], data[0].latlng[1]];
@@ -72,6 +73,7 @@ searchBtn.addEventListener("click", () => {
 
     // Call the createMap function with the lat and lng values
     createMap(lat, lng);
+
     })
 
 
@@ -85,6 +87,8 @@ searchBtn.addEventListener("click", () => {
 
 
 });
+
+
 
 
 function displayContent(list) {
@@ -314,6 +318,7 @@ const fetchCityInfo = async (country, city) => {
 
 }
 
+
 // Function to create a pie chart using Chart.js
 function createPieChart(labels, values, chartTitle) {
   // Get the canvas element
@@ -359,4 +364,7 @@ function createPieChart(labels, values, chartTitle) {
     },
   });
 }
+
+
+
 

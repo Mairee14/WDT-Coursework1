@@ -146,6 +146,29 @@ nav .navbar .links li:hover .js-sub-menu {
     display: none;
 }
 
+ 
+
+/* Style for the country name */
+h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Style for the data wrapper */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Style for the inner data wrapper */
+.data-wrapper {
+  width: 80%;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid black;
+}
+
 
 
 
@@ -214,119 +237,28 @@ nav .navbar .links li:hover .js-sub-menu {
 
 
 
-    /* Table style
- /* .table-responsive {
-    overflow-x: auto;
-    margin-bottom: 20px;
-  }
-  
-  .countryOutput {
+  .containerpie {
+    width: 80%;
+    margin: auto;
+    height: 500px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .countryOutput > div {
-    flex-basis: 48%;
-    margin-bottom: 30px;
-  }
-  
-  .countryOutput h4 {
-    color: #8B4513;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .countryOutput span {
-    font-size: 16px;
-    display: block;
-    margin-bottom: 20px;
-  }
-  
-  .table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  .table th, .table td {
-    padding: 10px;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
     border: 1px solid #ddd;
+    border-radius: 10px;
+    
   }
+    
   
-  .table th {
-    background-color: #8B4513;
-    color: #fff;
-  }
-  
-  .table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .table tbody tr:hover {
-    background-color: #ddd;
-  } */
-  
-  /* .table thead th:first-child,
-  .table tbody td:first-child {
-    border-left: none;
-  }
-  
-  .table thead th:last-child,
-  .table tbody td:last-child {
-    border-right: none;
-  }
-  
-  @media (max-width: 767px) {
-    .countryOutput > div {
-      flex-basis: 100%;
-    }
-  } 
-  
-
-  .table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  .table th, .table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  .table th {
-    background-color: #f2f2f2;
-    color: #444;
-    font-weight: bold;
-  }
-  
-  .table tr:nth-child(even) {
-    background-color: #f2f2f2;
-  } 
-
-  
-   
-  
-
-
 /* Container result */
 #result {
     margin-top: 0.25em;
 
 }
-.containerpie{
-    width: 80%;
-  margin: auto;
-    height: 500px;
-}
-.flag-img {
-    display: flex;
-    width: 45%;
-    min-width: 7.5em;
-    margin: 1.8em auto 1.2em auto;
-}
+
+
 
 .table thead th {
     background-color: #5D4037;
