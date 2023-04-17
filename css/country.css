@@ -96,7 +96,7 @@ nav .navbar .links li .sub-menu {
 }
 
 .navbar-brand {
-    font-size: 3px;
+    font-size: 35px;
     margin-right: 50px;
     color: black;
   }
@@ -145,6 +145,8 @@ nav .navbar .links li:hover .js-sub-menu {
 .navbar .bx-menu {
     display: none;
 }
+
+
 
 
 /*** Home styling ***/
